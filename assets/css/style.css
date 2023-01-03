@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400;500;700&display=swap');
+
+*{
+    color: #c4fffc;
+    box-sizing: border-box;
+    font-family: 'Inconsolata', monospace;
+}
+body {
+
+    background-image: url('../images/bg-image.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* background-color: linear-gradient(to bottom, black, gray); */
+    
+
+
+}
+main i{
+    color: #c05fe0;
+}
+
+/* HEADER START */
+
+/* Line 24 tou html, mesa sto bootstrap */
+
+/* HEADER END */
+
+
+
+
+/* ABOUT ME START */
+main .about-me {
+    border: 5px solid #733e85;
+    border-radius: 10px;
+    padding: 1rem 20px;
+    width: 70%;
+    margin: auto;
+    background-color: #02022c;
+    margin-top: 2rem;
+    opacity: 0.85;
+}
+main .about-me .coin{
+    margin: 0 -2rem ;
+}
+
+
+/* ABOUT ME END */
+
+
+/* STUDIES START */
+main .studies-area {
+    border: 5px solid #733e85;
+    border-radius: 10px;
+    padding: 1rem 20px;
+    width: 70%;
+    margin: auto;
+    background-color: #02022c;
+    margin-top: 2rem;
+    opacity: 0.85;
+    }
+main .studies-area h4{
+    padding-top: 2rem;
+}
+main .project-area ul{
+    list-style-type: none;
+}
+
+
+/* STUDIES END */
+
+
+
+
+
+
+/* PROJECTS START */
+main .project-area {
+border: 5px solid #733e85;
+border-radius: 10px;
+padding: 1rem 20px;
+width: 70%;
+margin: auto;
+background-color: #02022c;
+margin-top: 2rem;
+opacity: 0.85;
+}
+/* PROJECTS END */
+
+
+/* footer */
+
