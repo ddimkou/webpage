@@ -4,6 +4,8 @@
     color: #c4fffc;
     box-sizing: border-box;
     font-family: 'Inconsolata', monospace;
+    padding: 0;
+    margin: 0;
 }
 body {
 
@@ -11,10 +13,9 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+
     /* background-color: linear-gradient(to bottom, black, gray); */
     
-
-
 }
 main i{
     color: #c05fe0;
@@ -22,70 +23,82 @@ main i{
 
 /* HEADER START */
 
-/* Line 24 tou html, mesa sto bootstrap */
+/* Line 22 tou html, mesa sto bootstrap */
 
 /* HEADER END */
 
 
 
 
-/* ABOUT ME START */
-main .about-me {
+
+
+/* Left aside START */
+main .container-fluid .aside-infos{
     border: 5px solid #733e85;
     border-radius: 10px;
-    padding: 1rem 20px;
-    width: 70%;
-    margin: auto;
     background-color: #02022c;
-    margin-top: 2rem;
     opacity: 0.85;
+    padding: 1rem;
+    margin: 3rem 1rem auto 1rem;
+/* display: none; */
 }
-main .about-me .coin{
-    margin: 0 -2rem ;
-}
+/* Left aside END */
 
 
-/* ABOUT ME END */
 
-
-/* STUDIES START */
-main .studies-area {
+/* Right aside START */
+main .container-fluid .aside-studies{
     border: 5px solid #733e85;
     border-radius: 10px;
-    padding: 1rem 20px;
-    width: 70%;
-    margin: auto;
     background-color: #02022c;
-    margin-top: 2rem;
     opacity: 0.85;
-    }
-main .studies-area h4{
-    padding-top: 2rem;
+    padding: 1rem;
+    margin: 3rem -1rem auto -1rem;
+/* display: none; */
 }
-main .project-area ul{
-    list-style-type: none;
+/* Right aside END */
+
+
+
+/* About Me  START */
+main .container-fluid .about-me{
+    border: 5px solid #733e85;
+    border-radius: 10px;
+    background-color: #02022c;
+    opacity: 0.85;
+    padding: 1rem;
+    margin: 3rem 1rem auto -1rem;
+/* display: none; */
 }
-
-
-/* STUDIES END */
-
-
-
+/* About Me END */
 
 
 
 /* PROJECTS START */
-main .project-area {
-border: 5px solid #733e85;
-border-radius: 10px;
-padding: 1rem 20px;
-width: 70%;
-margin: auto;
-background-color: #02022c;
-margin-top: 2rem;
-opacity: 0.85;
+main .project-area{
+    border: 5px solid #733e85;
+    border-radius: 10px;
+    background-color: #02022c;
+    opacity: 0.85;
+    padding: 1rem;
+    margin: 2rem;
+ }
+ /* Main Content END */
+
+
+
+
+
+/* test end */
+
+/* main .project-area ul{
+    list-style-type: none;
+} */
+.main .container-fluid .row .aside-studies ul{
+    list-style-type: none;
 }
-/* PROJECTS END */
+
+
 
 
 /* footer */
